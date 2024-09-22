@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+  
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,13 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+div{
+  h1{background-color: yellow;}
+  color: rgba(67, 31, 150, 0.8);
+  p{color: red; }
+  h2{background-color: plum;}
+  h3{background-color:gray;}
+  b{color: black;}
 }
